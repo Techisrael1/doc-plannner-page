@@ -214,6 +214,22 @@ main {
 		margin-top: 0;
 		padding: 5px 280px 5px 0px;
 		width: 22%;
+		// filter: grayscale(100%);
+	}
+
+	svg {
+		fill: #ddd;
+
+		&:hover {
+			fill: #00b39b;
+		}
+	}
+	img {
+		filter: grayscale(100%);
+
+		&:hover {
+			filter: grayscale(0%);
+		}
 	}
 	.gipo {
 		img {
